@@ -9,7 +9,7 @@ add_message_files(
   Gps.msg                 RawImu.msg            ServoPosition.msg
   MotionCommand.msg       RawOdometry.msg       ServoPositions.msg
   NavigationSolution.msg  ServoCommand.msg      Status.msg
-
+  Pdout.msg
 )
 
 add_service_files(
